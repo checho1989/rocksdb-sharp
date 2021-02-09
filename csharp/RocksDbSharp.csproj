@@ -5,18 +5,19 @@
     <OutputType>Library</OutputType>
     <LangVersion>latest</LangVersion>
     <PackageId>RocksDB</PackageId>
-    <Authors>Curiosity GmbH, Warren Falk</Authors>
-    <Company>Curiosity GmbH, Warren Falk</Company>
+    <Authors>Blockcore</Authors>
+    <Company>Blockcore</Company>
     <Description>.NET bindings for RocksDB, including the matching native libraries for Linux, Windows and macOS.</Description>
     <PackageTags>rocksdb leveldb embedded database</PackageTags>
     <Copyright>(c) Copyright 2016 Warren Falk, (c) Copyright 2019 Curiosity GmbH</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
-    <Version>0.0.42</Version>
+    <Version>0.0.43</Version>
     <IncludeReferencedProjects>true</IncludeReferencedProjects>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PackageIcon>logo-128.png</PackageIcon>
+    <Product>Blockcore.RocksDbSharp</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
